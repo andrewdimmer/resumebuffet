@@ -84,8 +84,8 @@ function loadResumeForm() {
         JSON2 = JSON;
         console.log(JSON);
 
-        document.getElementById("generatedInputElementsGoHere").innerHTML = /*"<label for='resumeName'><h3>Résumé version</h3></label>" +
-        */"<div class='form-group'>"/*<input type='text' placeholder='Résumé for Apple, Résumé for Samsung' class='form-control' id='resumeName' value=\""+ JSON["name"] +"\"></div>"*/
+        document.getElementById("generatedInputElementsGoHere").innerHTML = /*"<label for='resumeName'><h3>Resumé version</h3></label>" +
+        */"<div class='form-group'>"/*<input type='text' placeholder='Resumé for Apple, Resumé for Samsung' class='form-control' id='resumeName' value=\""+ JSON["name"] +"\"></div>"*/
         document.getElementById("resumeName").value = JSON["name"];
 
         let categories = ["email", "phone", "address", "website", "summary", "cert"];
